@@ -41,17 +41,4 @@ The system architecture consists of a **client-server model** implemented using 
 
 The Secure Notes Manager ensures that clients can securely manage their notes, with a focus on data confidentiality, integrity, and availability. The system is designed for efficiency, with no need for key exchange, robust authentication, and minimal transmission errors.
 
-### Key Learnings
-- **Salted Hashing**: Generated unique salt strings for each user and calculated SHA-512 hashes using the Crypto++ library.
-- **AES Encryption**: Implemented AES encryption in CBC mode for secure data storage and transmission.
-- **Encoding**: Used Base64 encoding to minimize transmission errors during data transfer.
 
-## Source Code
-
-- **Client Implementation**: [Client.cpp](#)
-- **Server Implementation**: [Server.cpp](#)
-
-## References
-
-1. [Crypto++ Library](https://cryptopp.com)
-2. Cryptography and Network Security Principles by William Stallings
